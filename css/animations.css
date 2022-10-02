@@ -1,0 +1,10 @@
+@keyframes animate {
+    from {
+      filter:grayscale(20%);
+    }
+  
+    to {
+      filter:grayscale(100%);
+  
+    }
+  }
