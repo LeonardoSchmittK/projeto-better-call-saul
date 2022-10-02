@@ -1,0 +1,45 @@
+.actorContainer {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.25rem 01em rgba(128, 128, 128, 0.179);
+    transition: .3s ease-in-out;
+  
+  }
+  
+  
+  
+  
+  
+  .actorContainer:hover img {
+    filter:grayscale(1%);
+  
+    /* animation: animate 1s backwards; */
+  }
+  .actorContainer:hover{
+    transform: scale(1.005);
+    transition: .3s ease-in-out;
+  }
+  
+  
+  .actorContainer h1 {
+    color:#811a1a;
+  
+  } 
+  
+  .actorContainer span {
+    padding: 0 0 1rem 0;
+    color:#431313;
+    opacity: 0.5;
+    
+  } 
+
+  .actorContainer img {
+
+    width: 250px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 0.4rem;
+    filter:grayscale(70%);
+  }
+  
