@@ -141,6 +141,26 @@ footer svg:hover {
 }
 
 
+table {
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.287);
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.323);
+}
+
+table tr:nth-child(odd){ 
+  background:rgba(223, 223, 223, 0.301);
+}
+
+section table {
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+
+
 @media (20rem <= width <= 100rem) {
 
 
@@ -159,7 +179,8 @@ footer svg:hover {
   }
 
   .section {
-    width: 100%;
+    width: 80%;
+    margin: 1rem auto;
 
   }
 
