@@ -114,10 +114,31 @@
 
 
 
+footer {
+  background-color: #dddddd1f;
+  margin: 0;
+  position: relative;
+  padding: 2rem;
+}
 
+.footer-title {
 
+  font-family: betterCallSaulFont;
+}
+.creator-link {
+  color:#811a1a;
+}
 
+footer svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.2;
+}
 
+footer svg:hover {
+  opacity: 1;
+
+}
 
 
 @media (20rem <= width <= 100rem) {
