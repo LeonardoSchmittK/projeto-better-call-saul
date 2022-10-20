@@ -174,8 +174,12 @@ section table {
   }
 
   .sectionContainer {
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
 
+  .actorContainer{
+    margin: 10px;
   }
 
   .section {
