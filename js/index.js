@@ -10,3 +10,15 @@ function goBack(){
     alert("VOLTOU!")
 }
 
+let allOpened = false;
+function dropdown(el){
+    if(allOpened){
+    el.parentNode.style.height="auto";
+    allOpened = false;
+
+    }else {
+    allOpened = true;
+    el.parentNode.style.height="5vh";
+    }
+
+}

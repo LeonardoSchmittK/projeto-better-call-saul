@@ -16,3 +16,21 @@
     top:1.5rem;
     padding: .5rem;
 }
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContainer section {
+    align-self: center;
+    overflow: hidden;
+}
+
+.sectionContainer img {
+    padding: 1em;
+    width: 100%;
+    border-radius: 1.3em;
+}

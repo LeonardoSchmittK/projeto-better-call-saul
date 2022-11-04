@@ -28,9 +28,20 @@
       p {
         
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:#000000;
-        
+        color:#111010;
+        line-height: 1.5em;
       }
+
+      h1 ~ p {
+        padding-top: 10px;
+      }
+
+      mark {
+        background-color: rgba(255, 0, 0, 0.161);
+        padding: 3px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
 
       button, input[type="submit"], input[type="reset"] {
         background: none;
